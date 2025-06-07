@@ -1,5 +1,7 @@
 # This is my first python project
 
+## Day 1
+
 ### It converts the temprature provided in celsius to kelvin and fahrenhiet
 
 ### What I did great?
@@ -19,3 +21,17 @@ while True:
         continue
     print(n)
 ```
+
+## Day 2
+
+### It converts the temprature provided in celsius to Kelvin and Fahrenhiet (in which the user wants)
+
+### What I did great?
+1. UI
+2. Functions 
+3. Decimal Formatting
+4. Friendly prompts and messages
+
+
+### What I learned
+- Exception Handeling
