@@ -3,6 +3,7 @@
 def main() -> None:
     print("\n===============Temprature Converter===============")
 
+    # Ask the user for temprature in celsius and also handles ValueError (as many times as user wants)
     while True:
         try:
             temprature_in_celsius = float(input("\nEnter temprature in Celsius: "))
@@ -19,6 +20,10 @@ def main() -> None:
 
 
 def convert_temprature(temprature):
+    """
+    This function takes temprature as an argument and then ask the user for unit in which it is going 
+    to convert it.
+    """
     conversion = input("\nDo you want to convert it into K or F? ").lower()
 
     if conversion == "k":
