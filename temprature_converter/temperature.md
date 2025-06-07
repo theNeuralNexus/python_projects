@@ -34,4 +34,5 @@ while True:
 
 
 ### What I learned
-- Exception Handeling
+- Exception Handeling (Improved my learning)
+- Function and modular code
