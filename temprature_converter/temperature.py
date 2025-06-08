@@ -26,7 +26,7 @@ def ask_temperature() -> float:
             return temperature_in_celsius
 
 
-def convert_temperature(temperature) -> None:
+def convert_temperature(temperature: float) -> None:
     """
     This function takes temperature as an argument and then ask the user for unit in which it is going 
     to convert it.
