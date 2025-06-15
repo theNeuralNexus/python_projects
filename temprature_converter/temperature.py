@@ -9,7 +9,7 @@ def main() -> None:
         # Ask the user if he wants to use the program again
         again = input("Do you want to convert temperature again (y/n)? ")
         if again not in ["y", "yes"]:
-            print("\nThanks! for using temperature converter. ❤️")
+            print("\nThanks! for using temperature converter.")
             break
 
     
@@ -21,7 +21,7 @@ def ask_temperature() -> float:
         try:
             temperature_in_celsius = float(input("\nEnter temperature in Celsius: "))
         except ValueError:
-            print("\n❌-----It is not a valid temperature.-----❌")
+            print("\n-----It is not a valid temperature.-----")
         else:
             return temperature_in_celsius
 
@@ -36,14 +36,14 @@ def convert_temperature(temperature: float) -> None:
 
         if conversion == "k":
             converted_temperature = temperature + 273.15
-            print(f"\n{temperature}°C equals to {converted_temperature:.2f} K. 🌡️\n")
+            print(f"\n{temperature}°C equals to {converted_temperature:.2f} K.\n")
             break
         elif conversion == "f":
             converted_temperature = (temperature * (9 / 5)) + 32
-            print(f"\n{temperature}°C equals to {converted_temperature:.2f} F. 🌡️\n")
+            print(f"\n{temperature}°C equals to {converted_temperature:.2f} F.\n")
             break
         else:
-            print("\nPlease enter K for Kelvin and F for Fahrenheit❌\n")
+            print("\nPlease enter K for Kelvin and F for Fahrenheit\n")
 
 
 if __name__ == "__main__":
